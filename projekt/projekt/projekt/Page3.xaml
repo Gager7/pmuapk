@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.Page3"
+             Title="HOME" IconImageSource="k.png">
+
+    <AbsoluteLayout>
+        <Label AbsoluteLayout.LayoutBounds="0.5,0.05,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               HorizontalTextAlignment="Center"
+               FontSize="Title"
+               TextColor="DeepSkyBlue"
+               Text="HOME">
+        </Label>
+        <Image AbsoluteLayout.LayoutBounds="0.5,0.125,300,300"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika1"></Image>
+        <Label AbsoluteLayout.LayoutBounds="0.5,0.9,300,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Dobrodošli u fitness aplikaciju napravljenu upravo za one koji žele promijeniti svoj način života. Želite li preći na zdravu prehranu, krenuti trenirati ili smanjiti koji kilogram? Na pravom ste mjestu! FitnessApp vam omogućuje sve to besplatno."></Label>
+    </AbsoluteLayout>
+    
+</ContentPage>

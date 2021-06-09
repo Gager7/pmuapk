@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projekt.Page4"
+             Title="VJEŽBE" IconImageSource="work.png">
+    
+    <AbsoluteLayout>
+
+            <Label AbsoluteLayout.LayoutBounds="0.5,0.05,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               HorizontalTextAlignment="Center"
+               FontSize="Title"
+               TextColor="DeepSkyBlue"
+               Text="VJEŽBE">
+            </Label>
+
+
+            <Label AbsoluteLayout.LayoutBounds="0.1,0.2,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Large"
+               TextColor="DeepSkyBlue"
+               Text="RUKE">
+        </Label>
+        <Label AbsoluteLayout.LayoutBounds="0.125,0.3,250,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Stojeći pregib sa šipkom, Pregib s bučicama, Čekić pregib bučicama">
+        </Label>
+            <Image AbsoluteLayout.LayoutBounds="0.9,0.15,75,75"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika2"></Image>
+
+
+            <Label AbsoluteLayout.LayoutBounds="0.1,0.475,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Large"
+               TextColor="DeepSkyBlue"
+               Text="PRSA">
+        </Label>
+        <Label AbsoluteLayout.LayoutBounds="0.125,0.575,250,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Sklekovi, Propadanja, Razvlačenje bučica">
+        </Label>
+            <Image AbsoluteLayout.LayoutBounds="0.9,0.35,75,75"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika3"></Image>
+            
+            
+        <Label AbsoluteLayout.LayoutBounds="0.1,0.75,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Large"
+               TextColor="DeepSkyBlue"
+               Text="LEĐA">
+        </Label>
+        <Label AbsoluteLayout.LayoutBounds="0.125,0.85,250,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Zgibovi, Povlačenje lat mašine, Veslanje u pretklonu sa šipkom">
+        </Label>
+            <Image AbsoluteLayout.LayoutBounds="0.9,0.55,75,75"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika4"></Image>
+            
+            
+        <Label AbsoluteLayout.LayoutBounds="0.1,1.025,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Large"
+               TextColor="DeepSkyBlue"
+               Text="STOMAK">
+        </Label>
+        <Label AbsoluteLayout.LayoutBounds="0.125,1.125,250,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Trbušnjaci, Dodirivanje gležnjeva, Sjedeća rotacija">
+        </Label>
+            <Image AbsoluteLayout.LayoutBounds="0.9,0.75,75,75"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika5"></Image>
+            
+            
+        <Label AbsoluteLayout.LayoutBounds="0.1,1.3,200,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Large"
+               TextColor="DeepSkyBlue"
+               Text="NOGE">
+        </Label>
+        <Label AbsoluteLayout.LayoutBounds="0.125,1.4,250,200"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               FontSize="Body"
+               TextColor="DeepSkyBlue"
+               Text="Iskorak, Mrtvo dizanje, Bugarski čučanj">
+        </Label>
+            <Image AbsoluteLayout.LayoutBounds="0.9,0.95,75,75"
+               AbsoluteLayout.LayoutFlags="XProportional,YProportional"
+               x:Name="slika6"></Image>
+            
+    </AbsoluteLayout>
+    
+</ContentPage>
